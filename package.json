@@ -1,0 +1,13 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "zzt",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server -p3005 -w db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
